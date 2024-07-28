@@ -1,12 +1,11 @@
-'use client'
 import React from 'react'
 
-const page = () => {
+const Contact = () => {
   return (
     <div>
-
+        
     </div>
   )
 }
 
-export default page
+export default Contact
