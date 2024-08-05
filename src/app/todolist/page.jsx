@@ -64,7 +64,7 @@ const TodoList = () => {
                      <div className='flex justify-end gap-4 mt-2'>
                         <button onClick={()=> {toggleCompleted(index)}}  className='bg-blue-500 px-3 py-1 rounded-full text-white'>
                           {
-                            task.completed? 'Mark as Pending' : 'Mark as Completed'
+                            task.completed? 'Mark as Pending' : 'Mark as Complete'
                           }
                         </button>
                         <button onClick={()=> {deleteTask(index)}} className='bg-red-500 px-3 py-1 rounded-full text-white' >Delete</button>
